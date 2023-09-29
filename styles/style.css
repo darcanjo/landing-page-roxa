@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@400;600&display=swap');
+body{
+    background-color: rgb(34, 34, 34);
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-esq{
+    display: flex;
+    flex-direction: column;
+    color: #FFF2E7;
+    font-family: 'ADLaM Display', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.cabecalho-titulo{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    align-self: center;
+}
+
+.cabecalho-menu{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-item{
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    font-weight: 400;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.cabecalho-botao{
+    background-color: rgb(34, 34, 34);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    border: 2px solid rgb(132, 14, 201);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.conteudo{
+   margin: 20px; 
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.conteudo-escrito-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:rgb(132, 14, 201);
+    font-size: 100px;  
+    margin: -2px;
+    line-height: 30px;
+    
+}
+
+.conteudo-escrito-subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 85px;  
+    margin: -2px;
+}
+
+.conteudo-paragrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:white;
+    max-width: 600px;
+}
+
+.conteudo-img{
+    width: 560px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.formulario-item{
+    margin-top: 20px;
+    width: 50%;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+  
+    
+
+}
+
+.formulario-enviar{
+    height: 40px;
+    width: 50%;
+    background-color: rgb(132, 14, 201) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+.formulario-enviar:hover{
+    background-color: gray;
+}
